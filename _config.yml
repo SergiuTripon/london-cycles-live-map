@@ -1,0 +1,19 @@
+# general
+title: London Cycles Live Map
+author: Sergiu Tripon
+description: ""
+timezone: Europe/London
+
+# urls
+url: "http://sergiu-tripon.com"
+baseurl: "/london-cycles-live-map"
+
+# build
+permalink: /:year/:month/:day/:title/
+
+# exclude
+exclude:
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md

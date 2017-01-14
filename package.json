@@ -1,0 +1,32 @@
+{
+  "name": "LondonCyclesLiveMap",
+  "version": "0.1.0",
+  "description": "London Cycles Live Map by Sergiu Tripon",
+  "author": "Sergiu Tripon",
+  "main": "Gruntfile.js",
+  "homepage": "http://sergiu-tripon.com/london-cycles-live-map",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SergiuTripon/london-cycles-live-map"
+  },
+  "bugs": {
+    "url": "https://github.com/SergiuTripon/london-cycles-live-map/issues"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.0",
+    "csswring": "^3.0.5",
+    "grunt": "~0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-import": "^0.1.7",
+    "grunt-postcss": "^0.4.0",
+    "grunt-real-favicon": "^0.1.7",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.2.0"
+  },
+  "license": "MIT"
+}

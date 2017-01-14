@@ -1,0 +1,229 @@
+html, body {
+  /* display & box model */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* text */
+  font-family: "Roboto", sans-serif;
+}
+
+#map {
+  /* display & box model */
+  height: 100%;
+}
+
+#copyright {
+  /* display & box model */
+  padding: 0 6px;
+  margin-bottom: 1px;
+  /* color */
+  color: rgb(68, 68, 68);
+  background-color: rgba(255, 255, 255, 0.7);
+
+  #copyright-content {
+    /* text */
+    line-height: 14px;
+    font-size: 10px;
+
+    a {
+      /* color */
+      color: rgb(68, 68, 68);
+      /* text */
+      text-decoration: none;
+    }
+  }
+}
+
+/* .control-custom */
+.control-custom {
+  /* display & box model */
+  height: 37px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin: 10px 10px 10px 0;
+  -webkit-box-shadow: 0 1px 4px -1px rgba(0, 0, 0, .3);
+  -moz-box-shadow:    0 1px 4px -1px rgba(0, 0, 0, .3);
+  box-shadow:         0 1px 4px -1px rgba(0, 0, 0, .3);
+
+  @media (min-width: 480px) {
+    /* display & box model */
+    height: 31px;
+  }
+  /* color */
+  color: #000000;
+  background-color: #FFFFFF;
+}
+/* .control-custom */
+
+/* #geolocation */
+#geolocation {
+  /* display & box model */
+  padding: 1px 7px;
+  /* text */
+  font-size: 20px;
+  /* other */
+  cursor: pointer;
+}
+/* #geolocation */
+
+/* #search */
+#search {
+  /* display & box model */
+  display: none;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* text */
+  font-size: 14px;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  /* other */
+  outline: none;
+  @media (min-width: 320px) {
+    /* display & box model */
+    display: block;
+    width: calc(100% - 175px);
+  }
+  @media (min-width: 480px) {
+    /* display & box model */
+    width: 275px;
+  }
+  @media (min-width: 768px) {
+    /* display & box model */
+    width: 400px;
+  }
+}
+/* #search */
+
+/* .btn, .btn-light */
+.btn {
+  /* display & box model */
+  border-radius: 0;
+  /* text */
+  font-weight: 900;
+  /* other */
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+.btn-red {
+  /* display & box model */
+  border: 1px solid #FE0000;
+  /* color */
+  color: #FE0000;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    /* display & box model */
+    border: 1px solid #FE0000;
+    /* color */
+    color: #FFFFFF;
+    background-color: #FE0000;
+  }
+}
+/* .btn, .btn-light */
+
+/* .modal-custom */
+.modal-custom {
+  /* color */
+  color: #FE0000;
+
+  .modal-content {
+    /* display & box model */
+    box-shadow: none;
+    border-radius: 0;
+    /* color */
+    border-color: #FE0000;
+    background-color: #FFFFFF;
+
+    hr {
+      /* color */
+      margin: 0;
+      border-color: #FE0000;
+    }
+  }
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    /* text */
+    text-align: center;
+  }
+  .modal-header {
+    /* display & box model */
+    border-bottom: 2px solid #FE0000;
+
+    h1 {
+      /* text */
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .close,
+    .close:hover,
+    .close:focus {
+      /* display & box model */
+      margin-top: -5px;
+      /* color */
+      color: #FE0000;
+      /* text */
+      font-size: 30px;
+      text-shadow: none;
+      /* other */
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+  .modal-body {
+    h2, h3 {
+      /* display & box model */
+      margin-bottom: 20px;
+    }
+    ul {
+      /* display & box model */
+      margin-bottom: 0;
+    }
+    .list-inline {
+      li {
+        /* display & box model */
+        padding: 5px;
+      }
+    }
+    .item-status {
+      /* display & box model */
+      padding: 20px 0;
+      margin-bottom: 10px;
+      border: 1px solid #FE0000;
+      /* other */
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+
+      &:hover,
+      &:focus {
+        /* color */
+        color: #FFFFFF;
+        background-color: #FE0000;
+        /* other */
+        cursor: default;
+      }
+      h4 {
+        &:first-child {
+          /* text */
+          text-transform: capitalize;
+        }
+        &:last-child {
+          /* text */
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .modal-footer {
+    /* display & box model */
+    border-top: 2px solid #FE0000;
+  }
+}
+/* .modal-custom */

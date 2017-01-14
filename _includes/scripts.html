@@ -1,0 +1,28 @@
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ["Roboto:400,500,900:latin"]
+        }
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    if(typeof jQuery === 'undefined'){
+        document.write(unescape("%3Cscript type=\"text/javascript\" src=\"{{ '/assets/lib/jquery-3.1.1.min.js' | prepend: site.baseurl }}\"%3E%3C/script%3E"));
+    }
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDanmseaPJVQ1-K4Oj-Rf8FPtur9qKJ1UY&libraries=places"></script>
+
+<script>
+    var license_path = "{{ '/LICENSE.md' | prepend: site.baseurl | prepend: site.url }}";
+    var cycle_image_path = "{{ '/assets/icons/marker/cycle.png' | prepend: site.baseurl | prepend: site.url }}";
+</script>
+
+<script src="{{ '/assets/js/main.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
