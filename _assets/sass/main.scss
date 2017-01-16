@@ -158,8 +158,14 @@ body {
 
     h1 {
       /* text */
+      font-size: 28px;
       font-weight: 900;
       text-transform: uppercase;
+
+      @media (min-width: 480px) {
+        /* text */
+        font-size: 36px;
+      }
     }
     .close,
     .close:hover,
